@@ -51,3 +51,6 @@ class PublicUserApiTests(TestCase):
             email=payload['email']
         ).exists()
         self.assertFalse(user_exists)
+        
+        # 12- Build User Api 004
+        
